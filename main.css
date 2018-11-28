@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+body {
+    background-image:url("cover.jpg");
+    background-size: cover;
+}
+
+#little_header h2{
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    font-size: 60px;
+    text-align:center;
+    margin-top:40px;
+}
+
+#opacity{
+    width: 80%;
+    height: 840px;
+    margin-top:30px;
+    background: rgb(255, 255, 255, 0.3);
+    display:inline-block;
+}
+
+#contain{
+    margin:0 auto;
+    text-align:center;
+}
+
+#icon_group{
+    margin-left:130px;
+    width: 100px;
+}
+
+#little_header  #pop_btn{
+    width: 40px;
+    height: 40px;
+    border-radius:3px;
+    background-color: white;
+}
+
+#little_header  #home{
+    width: 40px;
+    height: 40px;
+    border-radius:3px;
+    background-color: white;
+}
+
+#little_header img:hover{
+    cursor:pointer;
+}
+
+#blank{
+    cursor:pointer;
+}
+
+#c{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top:20px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color:white;
+}
+
+#menu ul{
+    width: 130px;
+    color:white;
+    border:1px solid white;
+    background-color: black;
+    float:right;
+    display:inline-block;
+}
+
+#menu ul:hover{
+color:black;
+border:1px solid black;
+background-color: white;
+cursor:pointer;
+}
+
+#pop{
+width:100%;
+height:100%;
+background:white;
+position:absolute;
+display:none;
+}
+
+#popcorn{
+}
+
+#opacity p{
+    font-size:18px;
+    line-height:25px;
+    margin-top:5%;
+    color:black;
+}
+
+#pop_menu{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align:center;
+    margin-top:80px;
+    font-size:30px;
+    color:black;
+}
+
+
+footer img{
+    width: 100%;
+    height: 100px;
+    margin-top:40px;
+}
+
+a {
+    color: #666;
+}
+
+#opacity #search a{
+    color:black;
+    font-family: 'Amatic SC', cursive;
+    font-size : 35px;
+}
+
+#opacity p a {
+    color:blue;
+    font-family: 'Amatic SC', cursive;
+    font-size : 35px;
+}
+
+#p{
+    color:black;
+    font-size:35px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height:40px;
+}
